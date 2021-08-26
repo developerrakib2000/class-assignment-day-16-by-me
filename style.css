@@ -1,107 +1,133 @@
+/* header */
 
 
+ 
 .header{
-   background: #090b25;
-}
-.header-logo img{
-    width: 100px;
-   margin-top: 5px;
+    background-color: #2992de;
 }
 
-.menu{
-    text-align: center;
+.header img{
+    width: 200px;
+    height: auto;
+}
 
+.header ul{
+    text-align: right;
 }
-.menu ul{
-    margin-bottom: 0;
-}
-.menu ul li{
+.header ul li {
     display: inline-block;
+    margin-left: -4px;
 }
-.menu ul li a{
-    display: inline-block;
+.header ul li a{
     text-decoration: none;
     color: white;
-    padding: 0px 25px;
-    font-size: 15px;
-    line-height: 50px;
-    margin-top: 10px;  
-}
-
-/* banner-section */
-
-
-.banner{
-    background-image: url(./intro-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 300px 0;
-    color: white;
-    margin: auto;
-
-}
-
-.banner p{
-    margin-top: 15px;
-}
-.banner a{
-    margin-top: 25px;
-    text-decoration: none;
-    color: white;
-    background-color: #3eb9e5;
+    padding: 10px 30px;
     display: inline-block;
+    border-left: 1px solid #fff;
+    line-height: 47px;
+    margin-bottom: -32px;
+    transition: 0.4s;
+}
+
+.header ul li:last-child{
+    border-right: 1px solid #fff;
+    line-height: 64px;
+    margin-bottom: -32px;
+}
+.header ul li a:hover{
+    background-color: rgb(103, 103, 216);
+}
+
+ /* banner-section */
+
+ .banner{
+    background-image: url(./img/beautiful_banner_background_05_hd_picture_169242.jpg);
+     width: 100%px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding: 220px;
+ }
+
+ .banner h2{
+     background-color: #e84118 ;
+     color: white;
+     padding: 10px 15px;
+     display: inline-block;
+     margin-bottom: 40px;
+     border-radius: 20px 0 20px 0;
+ }
+
+ .banner p{
+    background-color: #192a56;
+    color: white;
     padding: 10px 15px;
-    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 0px 20px 0px 20px;
+    font-size: 25px;
 }
 
 /* about-section */
 
 .about{
-    background-color: #bac1f3;
-    padding: 50px;
+    background-color: #ebf0f1;
 }
 
-h2{
-    font-size: 40px;
-    
-}
-.about h3{
-    font-size:20px ;
-}
 
-.about a{
-    text-decoration: none;
-    display:inline-block ;
-    padding: 7px 15px;
-    background-color:#337ab7 ;
-    color: white;
-    border-radius: 10px;
-}
 
 /* service-section */
 
 .service{
-    background-color:#c2d4ea ;
-    padding: 100px;
+    background-color: #273c75;
 }
 
-.service li{
+.service1{
+    color: white;
+    
+}
+span{
+    margin: 50px auto ;
+    height: 50px;
+    width: 50px;
+    display: block;
+    background-color: steelblue;
+    color: #fbc531;
+    font-size: 40px;
+    line-height: 50px;
+    border-radius: 25px 0 25px 0;
+    
+}
+
+.card h2{
+    margin: 10px 0;
+}
+
+/* product-section */
+
+.product{
+    background-color: #4cd137 ;
+}
+
+.product1{
+    color: white;
+    font-size: 100px;
+}
+img{
+    max-width: 100%;
+}
+
+.product-right ul{
     list-style: none;
-   font-size: 15px;
-
+}
+.product-right ul li{
+    background-color: #f7f7f7;
+    font-size: 15px;
+   border-radius: 10px;
+   padding: 10px;
+   margin-bottom: 5px;
 }
 
-.service-section p{
-    text-align: left;
-    font-size: 10px;
 
-}
-.service-right{
-    margin-top: 70px;
-}
-.big-text{
-    font-size: 20px;
-}
 
 /* content */
 
@@ -111,19 +137,29 @@ h2{
 .form-section{
     width: 500px;
 }
-.okay{
-    margin-top: 50px;
-}
-/* footer */
+
+/* footrt */
 
 .footer{
-    padding-top: 15px;
-    background-color: #0b62d1;
-    color: white;
-    text-align: center;
+    background-color: #353b48;
+    padding: 20px;
 }
-.footer p{
-  
+.footer h3{
+    font-size: 20px;
+    color: white;
     margin-bottom: 0;
+}
 
+
+.footer ul{}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    padding-bottom: 0;
+    font-size: 20px;
 }
